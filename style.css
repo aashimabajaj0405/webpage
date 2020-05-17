@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: 60px;
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+  margin: 25px 15px;
+  padding: 20px 15px;
+  /* border: 1px solid black; */
+}
+
+.title-1 {
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
+  margin: 30px 20px;
+}
+
+.container {
+  display: flex;
+  margin: 2px 15px 10px 15px;
+  margin-bottom: 0;
+  border-top: 3px solid black;
+}
+
+.container-quarter {
+  width: 25%;
+  padding: 10px;
+  align-items: stretch;
+  text-align: left;
+  border-width: 0px 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.container-half {
+  width: 50%;
+  padding: 10px;
+  align-items: stretch;
+  text-align: left;
+}
+
+.new-container {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+.container-three-quarter {
+  width: 75%;
+  /* height: max-content; */
+  text-align: left;
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* justify-content: center; */
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-three-quarter div{
+  /* border:1px black solid; */
+  display: flex;
+  margin: 0;
+  padding: 20px;
+  font-family: "Futura";
+  font-weight: bold;
+  color: #666;
+  font-size: 30px;
+  text-align: left;
+  align-items: center;
+  flex: 1;
+}
+
